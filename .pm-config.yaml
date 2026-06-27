@@ -1,0 +1,27 @@
+product: what-to-eat
+platforms:
+  - name: ios
+    scope: ios
+    paths:
+      - ios-app/
+      - docs/design_ios.md
+  - name: android
+    scope: android
+    paths:
+      - android-app/
+      - docs/design_android.md
+common:
+  scope: common
+  paths:
+    - docs/design.md
+    - docs/requirements.md
+    - docs/ui_design.md
+    - docs/feats/
+    - docs/fixes/
+    - docs/COMMIT_CONVENTION.md
+    - .gitignore
+    - README.md
+    - .pm-config.yaml
+release_channels:
+  - ios
+  - android
